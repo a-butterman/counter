@@ -1,0 +1,41 @@
+.counter__button{
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    height: 100%;
+    width: 30%;
+    background-color: #c9c2e8;
+    color: #3511c8;
+    transition: all 0.1s linear;
+}
+
+.counter__button:disabled {
+    background-color: grey;
+    cursor: default;
+    color: #392b73;
+}
+.counter__button:disabled:hover {
+    background-color: grey;
+    position: relative;
+    top: 0;
+    box-shadow: none;
+}
+.counter__button:disabled:active {
+    background-color: grey;
+    position: relative;
+    top: 0;
+    box-shadow: none;
+}
+
+.counter__button:hover {
+    position: relative;
+    top: -1px;
+    background-color: #d5cfec;
+    box-shadow: black 0 3px 10px;
+}
+.counter__button:active {
+    position: relative;
+    top: 0;
+    background-color: #d5cfec;
+}

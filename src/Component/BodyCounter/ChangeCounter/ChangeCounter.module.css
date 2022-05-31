@@ -1,0 +1,49 @@
+.counter__change {
+    display: inline-grid;
+    grid-template-columns: 1fr 2fr 1fr;
+
+}
+.counter__value {
+    display: flex;
+    justify-content: center;
+    background-color: #c9c2e8;
+    color: #3511c8;
+}
+.counter__valueERR {
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+.counter__minButton {
+    cursor: pointer;
+    width: 40px;
+    height: 31px;
+    border-radius: 10px 0 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #c9c2e8;
+    color: #3511c8;
+    transition: 0.3s;
+}
+.counter__minButton:hover,
+.counter__plusButton:hover {
+    position: relative;
+    top: -1px;
+    background-color: #a69fc5;
+}
+.counter__minButton:active,
+.counter__plusButton:active {
+    position: relative;
+    top: 1px;
+}
+.counter__plusButton {
+    cursor: pointer;
+    width: 40px;
+    height: 31px;
+    border-radius: 0 10px 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #c9c2e8;
+    color: #3511c8;
+    transition: 0.3s;
+}
