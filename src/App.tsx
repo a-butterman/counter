@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import './App.css';
+import s from './App.module.css';
 import {BodyCounter} from "./Component/BodyCounter/BodyCounter";
 
 function App() {
