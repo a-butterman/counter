@@ -49,8 +49,8 @@ export const BodyCounter: React.FC<BodyCounterPropsType> = (
 			<div className={s.counter__body}>
 				<div className={s.counter__set}>
 					<div>
-						<div>Max Value</div>
-						<div>Start Value</div>
+						<div>Max Value:</div>
+						<div>Start Value:</div>
 					</div>
 					<div>
 						<ChangeCounter disabled={maxValue <= startValue} value={maxValue} setValue={setMaxValue}/>
